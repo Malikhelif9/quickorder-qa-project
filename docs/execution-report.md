@@ -4,10 +4,11 @@
 
 La campagne de tests menée sur la version V3.1 a couvert l'interface Web et l'API REST Swagger.
 
-* **Cas de test exécutés** : 25
-* **Succès (Pass)** : 11 (44 %)
-* **Échecs (Fail)** : 14 (56 %)
-* **Bloqués / Ignorés** : 0 (0 %)
+- **Cas de test exécutés** : 24
+- **Succès** : 11 (46 %)
+- **Échecs** : 13 (54 %)
+- **Bloqués** : 0 (0 %)
+- **Ignorés** : 0 (0 %)
 
 ## 2. Anomalies critiques identifiées
 
