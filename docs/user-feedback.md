@@ -24,6 +24,26 @@
   2. Tentative de suppression d'un article du panier.
   3. Validation de commande.
 
+  ## Utilisateur 2
+- **Profil** : Utilisateur occasionnel sur mobile.
+- **Scénarios exécutés** :
+  1. Ajout d'un plat *Tajine légumes* affiché hors stock.
+  2. Tentative de suppression d'un article du panier.
+  3. Validation de la commande.
+
+### Problèmes observés
+1. **Commande de produit épuisé** (Scénario 1) :
+   - *Problème* : L'utilisateur a réussi à ajouter au panier et commander le plat malgré la mention "Hors stock".
+   - *Verbatim* : « C'est écrit hors stock mais j'ai pu l'ajouter et valider la commande quand même. »
+   - *Impact / Fréquence* : Critique (Constaté à chaque essai).
+
+2. **Impossibilité de vider le panier** (Scénario 2) :
+   - *Problème* : Le clic sur l'icône de suppression (corbeille) ne déclenche aucune action.
+   - *Verbatim* : « Je clique sur supprimer mais le plat reste bloqué dans mon panier. »
+   - *Impact / Fréquence* : Majeur (100 % des essais).
+
+
+
 ## Utilisateur 3
 - **Profil** : Nouvel utilisateur / Client ponctuel pressé.
 - **Scénarios exécutés** :

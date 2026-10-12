@@ -5,10 +5,10 @@
 La campagne de tests menée sur la version V3.1 a couvert l'interface Web et l'API REST Swagger.
 
 - **Cas de test exécutés** : 24
-- **Succès** : 11 (46 %)
-- **Échecs** : 13 (54 %)
-- **Bloqués** : 0 (0 %)
-- **Ignorés** : 0 (0 %)
+- **Succès** : 11
+- **Échecs** : 13
+- **Bloqués** : 0
+- **Ignorés** : 0
 
 ## 2. Anomalies critiques identifiées
 
@@ -23,7 +23,7 @@ L'analyse de l'application met en évidence 9 bugs majeurs :
 8. **BUG-008** : Absence de page de confirmation claire après validation.
 9. **BUG-009** : Note moyenne des produits non mise à jour après l'ajout d'un avis.
 
-## 3. Recommandation : NO-GO ❌
+## 3. Recommandation : Déconseillé
 
 **Décision : REFUS DE MISE EN PRODUCTION**
 

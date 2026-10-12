@@ -3,7 +3,7 @@
 ---
 
 ### BUG-001 : Commande possible de produits en rupture de stock
-- **Sévérité** : Critical (Bloquant) | **Priorité** : P1
+- **Sévérité** : Critical | **Priorité** : P1
 - **Contexte** : Interface Web & API — Fiche Produit / Panier
 - **Préconditions** : Produit *Tajine légumes* configuré avec un stock de 0 en BDD.
 - **Étapes de reproduction** :
@@ -18,7 +18,7 @@
 ---
 
 ### BUG-002 : Impossibilité de supprimer un article du panier
-- **Sévérité** : Major (Majeur) | **Priorité** : P1
+- **Sévérité** : Major | **Priorité** : P1
 - **Contexte** : Interface Web — Page Panier
 - **Préconditions** : Avoir au moins un article présent dans le panier.
 - **Étapes de reproduction** :
@@ -31,7 +31,7 @@
 ---
 
 ### BUG-003 : Prix total du panier fixe lors de la modification des quantités
-- **Sévérité** : Critical (Bloquant) | **Priorité** : P1
+- **Sévérité** : Critical | **Priorité** : P1
 - **Contexte** : Interface Web — Panier
 - **Préconditions** : Un article présent au panier (ex: Couscous à 12 €).
 - **Étapes de reproduction** :
@@ -44,7 +44,7 @@
 ---
 
 ### BUG-004 : Création de commandes avec panier vide autorisée via l'API
-- **Sévérité** : Critical (Bloquant) | **Priorité** : P2
+- **Sévérité** : Critical | **Priorité** : P2
 - **Contexte** : API REST — Endpoint `POST /api/orders`
 - **Préconditions** : Clé d'API valide (`X-API-Key: quickorder-demo-key`).
 - **Étapes de reproduction** :
@@ -56,7 +56,7 @@
 ---
 
 ### BUG-005 : Absence de contrôle d'expiration sur les codes promo
-- **Sévérité** : Major (Majeur) | **Priorité** : P2
+- **Sévérité** : Major | **Priorité** : P2
 - **Contexte** : Interface Web & API — Endpoint `POST /api/coupons/validate`
 - **Préconditions** : Un code promo expiré en base (ex: `EXPIRE2025`).
 - **Étapes de reproduction** :
@@ -69,7 +69,7 @@
 ---
 
 ### BUG-006 : Erreur 500 Internal Error au lieu de 401 Unauthorized sur l'API login
-- **Sévérité** : Major (Majeur) | **Priorité** : P2
+- **Sévérité** : Major | **Priorité** : P2
 - **Contexte** : API REST — Endpoint `POST /api/login`
 - **Préconditions** : Aucune.
 - **Étapes de reproduction** :
@@ -81,7 +81,7 @@
 ---
 
 ### BUG-007 : Quantités négatives acceptées dans le panier
-- **Sévérité** : Major (Majeur) | **Priorité** : P2
+- **Sévérité** : Major | **Priorité** : P2
 - **Contexte** : Interface Web — Panier
 - **Préconditions** : Article présent au panier.
 - **Étapes de reproduction** :
@@ -94,7 +94,7 @@
 ---
 
 ### BUG-008 : Absence de page de confirmation claire après validation
-- **Sévérité** : Minor (Mineur) | **Priorité** : P3
+- **Sévérité** : Minor | **Priorité** : P3
 - **Contexte** : Interface Web — Parcours de commande
 - **Préconditions** : Panier valide.
 - **Étapes de reproduction** :
@@ -106,7 +106,7 @@
 ---
 
 ### BUG-009 : Note moyenne des produits non mise à jour après l'ajout d'un avis
-- **Sévérité** : Minor (Mineur) | **Priorité** : P3
+- **Sévérité** : Minor | **Priorité** : P3
 - **Contexte** : Interface Web & BDD — Fiche Produit
 - **Préconditions** : Produit avec une note initiale de 4.9 / 5.
 - **Étapes de reproduction** :
