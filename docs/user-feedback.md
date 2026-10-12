@@ -24,13 +24,6 @@
   2. Tentative de suppression d'un article du panier.
   3. Validation de commande.
 
-  ## Utilisateur 2
-- **Profil** : Utilisateur occasionnel sur mobile.
-- **Scénarios exécutés** :
-  1. Ajout d'un plat *Tajine légumes* affiché hors stock.
-  2. Tentative de suppression d'un article du panier.
-  3. Validation de la commande.
-
 ### Problèmes observés
 1. **Commande de produit épuisé** (Scénario 1) :
    - *Problème* : L'utilisateur a réussi à ajouter au panier et commander le plat malgré la mention "Hors stock".
