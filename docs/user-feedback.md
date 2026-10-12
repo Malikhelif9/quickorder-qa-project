@@ -24,13 +24,21 @@
   2. Tentative de suppression d'un article du panier.
   3. Validation de commande.
 
+## Utilisateur 3
+- **Profil** : Nouvel utilisateur / Client ponctuel pressé.
+- **Scénarios exécutés** :
+  1. Inscription et tentative de création de compte avec un email existant.
+  2. Utilisation d'un code promo expiré (`EXPIRE2025`).
+  3. Finalisation du paiement et recherche de la confirmation de commande.
+
 ### Problèmes observés
-1. **Commande de produit épuisé** : L'utilisateur a réussi à ajouter et commander le *Tajine légumes*.
-   - *Verbatim* : « C'est écrit hors stock mais j'ai pu l'ajouter et valider la commande quand même. »
-   - *Impact / Fréquence* : Critique (Constaté à chaque essai).
-2. **Impossibilité de vider le panier** : Clic sur la corbeille sans effet.
-   - *Verbatim* : « Je clique sur supprimer mais le plat reste bloqué dans mon panier. »
+1. **Acceptation de coupon expiré** : L'utilisateur a saisi un code obsolète mais la réduction s'est appliquée.
+   - *Verbatim* : « J'ai testé un vieux code promo trouvé sur Internet et l'application l'a accepté sans râler. »
    - *Impact / Fréquence* : Majeur (100 % des essais).
+2. **Absence de page de confirmation de commande** : Après le clic sur "Valider", l'écran revient à l'accueil sans message explicite.
+   - *Verbatim* : « J'ai payé mais je suis retombé direct sur l'accueil, je ne sais même pas si ma commande a été prise en compte ni quel est son numéro. »
+   - *Impact / Fréquence* : Moyen (Systématique).
+
 
 ---
 
